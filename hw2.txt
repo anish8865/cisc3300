@@ -1,0 +1,7 @@
+1. Structural meaning in HTML refers to how HTML tags describe the page layout and organization, like headers, paragraphs, and sections. Semantic meaning, on the other hand, provides information about the type of content and its purpose within the document, like marking up a quote, emphasizing text, or defining an article.
+
+2. Using correct HTML elements is crucial for accessibility, search engine optimization (SEO), and maintainability. Screen readers rely on proper HTML to interpret content for visually impaired users, while search engines use it to understand the structure of information on a page.
+
+3. HTML forms are used to collect user input. They contain form elements like text fields, checkboxes, radio buttons, and buttons, and are used whenever a user needs to enter data, such as during registration, searching, or online purchasing.
+
+4. Inline elements do not start on a new line and only take up as much width as necessary. Examples include <span> and <a>. Block elements, such as <div> and <p>, start on a new line and take up the full width available, stretching out to the left and right as far as they can.
