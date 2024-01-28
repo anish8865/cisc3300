@@ -1,0 +1,35 @@
+1. ISP (Internet Service Provider): This is the company that provides you with Internet access. It routes your internet requests and responses.
+
+URL (Uniform Resource Locator): This is the address you enter into your browser. It specifies the location of a resource (like a webpage) on the internet.
+
+DNS (Domain Name System): This system translates the human-readable domain name in the URL (like www.example.com) into an IP address that computers use to identify each other on the network.
+
+Web Server: This is a computer that hosts the website and sends the web page to the user's browser. It receives the request for a page (identified by the URL), processes it, and sends back the appropriate HTML, CSS, and JavaScript files.
+
+The process involves the browser sending a request to the DNS servers to find the IP address associated with the domain name. Once the IP address is found, the request is routed through the internet to the web server hosting the website. The server then processes the request and sends back the files necessary to display the webpage. The browser then renders these files for the user to view.
+
+2. HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It tells the web browser how to structure and display content on a webpage. HTML does this through the use of tags and attributes, which define elements like headings, paragraphs, links, images, and other pieces of content. HTML forms the backbone of any website, providing the basic structure before styles (CSS) and behavior (JavaScript) are added.
+
+3. The website likely uses a well-organized HTML structure with a clear hierarchy. The top usually features a navigation bar, possibly with dropdown menus for different categories like "Academics," "Admissions," "Student Life," etc. This makes it easy for users to find broad categories of information. The homepage likely includes several sections, each dedicated to different aspects like recent news, upcoming events, or specific programs. There might be call-to-action buttons, leading users to apply, donate, or learn more. The footer of the page usually contains additional links, contact information, and legal information. The use of headings, images, and distinct sections helps in guiding the visitor through the site, making it intuitive to explore different areas. The design probably reflects the university's branding, with a consistent color scheme and typography.
+
+4. HTML Element: It's a building block of HTML pages. Elements tell the browser how to display content.
+    HTML Tag: These are the keywords (like <p>, <div>, <img>) surrounded by angle brackets. They define where an element starts 
+    and ends.
+    HTML Attribute: Attributes provide additional information about an element. They are included in the opening tag.
+
+5.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Anish Illuri</title>
+</head>
+<body>
+    <h1>Welcome to Anish Illuri's Page</h1>
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Anish Illuri</p>
+    <p><strong>Major:</strong> Computer Science</p>
+    <p><strong>Career Goals:</strong> Becoming a Software Engineer</p>
+    <p><strong>Pets:</strong> No pets</p>
+</body>
+</html>
+
