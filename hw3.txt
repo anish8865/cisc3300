@@ -1,1 +1,10 @@
+3. Margin, padding, and border are CSS properties that control the space around HTML elements. Margin is the outermost layer and creates space between elements; it's transparent. Padding is inside any defined borders, increasing the space between the content and the border, affecting the element's background color. Borders sit between margin and padding, representing the element's outer edge with style, width, and color. While the margin pushes adjacent items apart, padding increases the element's size, and the border enhances visual appearance without impacting the surrounding layout unless its width is altered.
+
+4.  a) display: flex - Activates the Flexbox layout on an element, making it a flex container and its children flex items.
+    b) flex-direction - Determines the direction in which flex items are laid out in the container 
+    c) flex-wrap - Controls whether flex items wrap onto multiple lines or stay within a single line.
+    d) justify-content/align-items - These properties align flex items along the main axis (justify-content), and the cross axis (align- 
+        items), controlling spacing and alignment.
+    e)  align-content - Aligns flex lines within the flex container when there is extra space on the cross-axis, similar to justify-content 
+         but for multiple lines.
 
