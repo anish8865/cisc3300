@@ -1,0 +1,13 @@
+1. JavaScript is a high-level, interpreted scripting language widely used for creating dynamic and interactive web content. It's a core technology of the World Wide Web, alongside HTML and CSS. Unlike compiled languages, which are converted into machine code before execution, interpreted languages are read and executed line by line by an interpreter at runtime. This means JavaScript code can be written and run without the need for a compilation step, offering flexibility and ease of testing but often at the cost of slower execution speed compared to compiled languages.
+
+2. 'var': Declares a variable with function-scoped or globally-scoped, depending on the context of use. It can be re-declared and updated.
+
+   'let': Introduces block-scoped variables. Unlike var, variables declared with let can only be accessed within their containing block. let variables be updated but not re-declared within the same scope.
+
+    'const': Also block-scoped, but is used to declare variables whose values are not intended to be reassigned. const must be initialized at the time of declaration. Like let, const cannot be re-declared within the same scope.
+
+3. Anonymous functions are functions without a name. They are often used as arguments to other functions or as immediately invoked function expressions (IIFE). For example, function() { return true; } is anonymous.
+
+Higher-order functions are functions that take other functions as arguments or return a function as their result. They are a key feature of functional programming in JavaScript. Examples include map(), filter(), and reduce() methods on arrays.
+
+4. In JavaScript, objects are property collections, each property being a key-value pair. Properties can be values of any type, including other objects or functions. JavaScript objects are dynamic, meaning properties can be added, modified, or deleted at runtime. This differs from objects in more traditional OOP languages like Java or C++, where objects are instances of classes, and their classes define the structure of objects. JavaScript uses prototypal inheritance, where objects can inherit properties directly from other objects, contrasting with the classical inheritance model used in traditional OOP languages, where inheritance is defined through classes.
