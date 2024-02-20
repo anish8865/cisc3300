@@ -1,0 +1,10 @@
+4. Document Object Model is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as a tree of nodes; this structure is called the "DOM Tree." Each node represents a part of the document (e.g., an element, attribute, or piece of text).
+
+5. XSS (Cross-Site Scripting) attacks are a type of security vulnerability typically found in web applications. XSS enables attackers to inject malicious scripts into content from otherwise trusted websites. These attacks occur when an application includes untrusted data on a web page without proper validation or escaping, allowing attackers to execute scripts in the victim's browser, which can hijack user sessions, deface websites, or redirect the user to malicious sites.
+
+To guard against XSS attacks, developers should:
+
+a)Escape user input in the output, especially in places where HTML, JavaScript, or SQL are expected.
+b)Use Content Security Policy (CSP) headers to reduce the risk of XSS.
+c)Validate or sanitize user input to ensure it conforms to expected formats.
+d)Use secure frameworks that automatically escape XSS vulnerabilities.
