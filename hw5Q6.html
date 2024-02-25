@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Elements Example</title>
+<style>
+    
+    #myList li:hover {
+        cursor: pointer;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+</style>
+<script>
+function changeButtonText() {
+    document.getElementById("changeTextButton").innerText = "Charmander";
+}
+
+function changeListItemsColor() {
+    var listItems = document.querySelectorAll("#myList li");
+    listItems.forEach(function(item) {
+        item.style.color = "blue";
+    });
+}
+
+function appendParagraph() {
+    var div = document.getElementById("containerDiv");
+    var paragraph = document.createElement("p");
+    paragraph.innerText = "I love Pokemon.";
+    div.appendChild(paragraph);
+}
+</script>
+</head>
+<body>
+
+
+<button id="changeTextButton" onclick="changeButtonText()">Pokemon</button>
+
+
+<ul id="myList">
+    <li onclick="changeListItemsColor()">Bulbasaur</li>
+    <li onclick="changeListItemsColor()">Charmander</li>
+    <li onclick="changeListItemsColor()">Squirtle</li>
+</ul>
+
+
+<div id="containerDiv">
+    <button onclick="appendParagraph()">Add Paragraph</button>
+</div>
+
+</body>
+</html>
