@@ -1,0 +1,15 @@
+$.ajax({
+    url: 'http://localhost:3000/posts/1',
+    type: 'PUT',
+    contentType: 'application/json',
+    data: JSON.stringify({
+        title: "updated title",
+        views: 300
+    }),
+    success: function(updatedPost) {
+        console.log(updatedPost); 
+    },
+    error: function(error) {
+        console.error('Error updating the post:', error);
+    }
+});
