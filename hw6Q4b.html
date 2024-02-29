@@ -1,0 +1,16 @@
+$.ajax({
+    url: 'http://localhost:3000/posts',
+    type: 'POST',
+    contentType: 'application/json',
+    data: JSON.stringify({
+        id: "3", 
+        title: "new title",
+        views: 150
+    }),
+    success: function(newPost) {
+        console.log(newPost); 
+    },
+    error: function(error) {
+        console.error('Error adding a new post:', error);
+    }
+});
