@@ -1,0 +1,10 @@
+$.ajax({
+    url: 'http://localhost:3000/posts',
+    type: 'GET',
+    success: function(posts) {
+        console.log(posts); 
+    },
+    error: function(error) {
+        console.error('Error fetching posts:', error);
+    }
+});
