@@ -1,0 +1,18 @@
+2. PHP and JavaScript Similarities:
+a)Both are used in web development.
+b)They can be embedded in HTML.
+c)They support object-oriented programming.
+
+PHP and JavaScript Differences:
+
+a)PHP is a server-side scripting language, while JavaScript is mainly client-side.
+b)PHP code is executed on the server, generating HTML, which is sent to the client. JavaScript code is performed on the client’s browser.
+c)PHP has built-in features to connect to databases; JavaScript typically uses APIs.
+
+3. MVC stands for Model-View-Controller, a software architectural pattern for implementing user interfaces.
+
+Responsibilities:
+
+Model: Handles data and business logic.
+View: Displays data to the user interface components.
+Controller: Manages the communication between the Model and View, handling user input and responses.
