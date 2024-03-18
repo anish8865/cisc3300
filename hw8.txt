@@ -1,0 +1,17 @@
+1. Escaping data means converting special characters into a format that doesn't interfere with the code syntax in which the data is inserted. This process helps avoid malicious code execution by preventing users from embedding harmful scripts or SQL commands in inputs that are directly used in HTML, SQL queries, or other code. By escaping specific characters, such as quotes, angle brackets, or backslashes, we ensure they are treated as plain text rather than executable code, mitigating injection attacks like Cross-Site Scripting or SQL Injection.
+
+2. 
+a) REST (Representational State Transfer) is an architectural style for designing networked applications. It relies on a stateless, client-server communication protocol, typically HTTP. Statelessness means that each request from client to server must contain all the information needed to understand and complete the request. The server does not store any session information about the client.
+
+b) A resource in REST is an object or representation of some entity that clients can access using a unique URI and manipulated using standard HTTP methods (GET, POST, PUT, DELETE).
+
+c) 
+ i. Getting a list of users: Use the HTTP method GET with a URL path like /users.
+
+ii. Getting a particular user: Use the GET method with a URL path specifying the user ID, such as /users/{userId}.
+
+iii. Saving a user: Use the POST method with a URL path like /users to create a new user.
+
+3. A Cookie is a small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing. Cookies are designed to be a reliable mechanism for websites to remember stateful information  or to record the user's browsing activity. They can also be used to remember arbitrary pieces of information that the user previously entered into form fields such as names, addresses, passwords, and credit card numbers.
+
+4. A Session is a server-side storage of information that is used to maintain a user's state across multiple page requests or visits. Unlike cookies, which are stored on the client's browser, session data is kept on the server and linked to the user through a session ID. This ID is typically passed to the user's browser via a cookie and serves as a key to retrieve the stored session data for each user. Sessions are commonly used to retain user authentication states, shopping cart contents, or any other per-user state information across the user's interactions with a website.
