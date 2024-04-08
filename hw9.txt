@@ -1,0 +1,9 @@
+1.  SQL stands for Structured Query Language. It is used for managing and manipulating relational databases.
+
+    Relational databases are databases that store and provide access to data points that are related to one another. They are 
+    structured to recognize relations among stored items of information.
+
+4.  PDO stands for PHP Data Objects. It is a database access layer providing a uniform method of access to multiple databases.
+
+    Prepared statements are used to enhance security and improve performance. They prevent SQL injection attacks and reduce 
+    parsing time as the SQL statement template is created only once.
